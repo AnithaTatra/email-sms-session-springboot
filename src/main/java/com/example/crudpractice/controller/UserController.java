@@ -87,7 +87,7 @@ public class UserController {
         return user;
   }
 
-@GetMapping("/third-party-api")
+/*@GetMapping("/third-party-api")
    public String getCountriesList() {
         try {
             HttpHeaders headers = new HttpHeaders();
@@ -102,5 +102,5 @@ public class UserController {
             throw new RuntimeException();
         }
        return null;
-   }
+   }*/
 }
